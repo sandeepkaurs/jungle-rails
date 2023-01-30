@@ -77,7 +77,7 @@ cat1.products.create!({
   As a defense mechanism the Lion Grapevine grows small thorns.
   They rely on wind pollination to reproduce. Once pollinated, they grow small, inedible fruits.",
   image: open_asset('plante_3.jpg'),
-  quantity: 4,
+  quantity: 0,
   price: 34.49
 })
 
@@ -198,7 +198,7 @@ cat3.products.create!({
   As a defense mechanism the Void Fennel has a thick, wooden stem.
   They rely on water currents to carry their seeds away to reproduce. Once pollinated, they grow fairly large, inedible fruits.",
   image: open_asset('plante_11.jpg'),
-  quantity: 2,
+  quantity: 0,
   price: 87.65
 })
 
