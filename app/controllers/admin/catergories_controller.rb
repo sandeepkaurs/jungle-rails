@@ -20,4 +20,8 @@ class Admin::CategoriesController < ApplicationController
     @categories = Category.all
   end
 
+  def category_params
+    params.require(:category).permit(:name)
+  end
+
 end
